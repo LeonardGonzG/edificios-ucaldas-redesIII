@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/materialize/css/materialize.min.css">
+    <link href="./lib/materialize/icons/icon.css" rel="stylesheet">
+
+    <script src="./lib/materialize/js/materialize.min.js"></script>
+    <title>Videos</title>
+</head>
+
+<body class="indigo lighten-2">
+
+    <nav>
+        <div class="nav-wrapper  indigo darken-2">
+          <a href="#" class="brand-logo">&nbsp;&nbsp;&nbsp;Videos edificio del parque y bicentenario</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><div class="boton">
+                <a class="waves-effect indigo darken-4 btn-large" href="index.html"><i class="material-icons right">home</i>Inicio</a>
+            </div></li>
+          </ul>
+        </div>
+      </nav>
+
+
+    </div>
+    <div class="row">
+        <div class="container valign-wrapper">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!">
+                    <p class="center-align white-text">
+                        <b>¿Cómo evacuar edificio del parque?</b>
+                    </p>
+                    <video class="responsive-video" controls>
+                        <source src="multimedia/video/Cómo evacuar el Edificio del Parque U  de Caldas.mp4"
+                            type="video/mp4">
+                    </video>
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <p class="center-align white-text">
+                        <b>Vicerrectoría de proyección en el bicentenario</b>
+                    </p>
+                    <video class="responsive-video" controls>
+                        <source
+                            src="multimedia/video/La Vicerrectoría de Proyección Universitaria se toma el Campus Bicentenario.mp4"
+                            type="video/mp4">
+                    </video>
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <p class="center-align white-text">
+                        <b>Obras de adecuación en el bicentenario</b>
+                    </p>
+                    <video class="responsive-video" controls>
+                        <source src="multimedia/video/Obras de adecuación Campus Bicentenario.mp4" type="video/mp4">
+                    </video>
+                </a>
+    
+            </div>
+        </div>
+    
+    </div>
+    
+
+    <script>
+        var options = {
+            dist: -100,
+            shift: 10
+        };
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, options);
+        });
+
+    </script>
+
+
+</body>
+
+</html>

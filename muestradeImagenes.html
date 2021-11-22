@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes</title>
+
+    <link rel="stylesheet" href="./lib/materialize/css/materialize.min.css">
+    <link href="./lib/materialize/icons/icon.css" rel="stylesheet">
+
+    <script src="./lib/materialize/js/materialize.min.js"></script>
+    <script src="./lib/materialize/js/cdnjs.js"></script>
+    
+</head>
+<body class="indigo lighten-2">
+
+    <nav>
+        <div class="nav-wrapper  indigo darken-2">
+          <a href="#" class="brand-logo">&nbsp;&nbsp;&nbsp;Imágenes edificio del parque y bicentenario</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><div class="boton">
+                <a class="waves-effect indigo darken-4 btn-large" href="index.html"><i class="material-icons right">home</i>Inicio</a>
+            </div></li>
+          </ul>
+        </div>
+      </nav>
+
+ 
+  <div class="slider">
+    
+    <ul class="slides">
+      <li>
+        <img src="multimedia/img/EntradaFacultadIngenierìas-JornadasDeIngenierìa2.jpg"> <!-- random image -->
+        <div class="caption right-align card-panel transparent darken-5">
+           
+          <h3>
+             <b>Entrada principal del edificio del parque</b> 
+        </h3>
+           <h5 class="lime-text text-accent-2">
+              <b>El cartel que se muestra anuncia las XVI Jornadas de Ingeniería.</b> </h5> 
+         
+        </div>
+      </li>
+      <li>
+        <img src="multimedia/img/EntradaTraseraMicaela.png"> <!-- random image -->
+        <div class="caption left-align card-panel transparent darken-5">
+          <h3 class="deep-orange-text text-accent-2">
+             <b>Entrada alternativa a la micaela</b> </h3>
+          <h5 class="deep-orange-text text-darken-1">
+             <b>Se usa esta entrada para ir a la micaela o a la sede principal</b> </h5>
+        </div>
+      </li>
+      <li>
+        <img src="multimedia/img/frenteEdificioDelParque.jpg"> <!-- random image -->
+        <div class="caption right-align card-panel transparent darken-5">
+          <h3>
+             <b>Vista frontal de la facultad de ingenierías.</b> </h3>
+          <h5 class="lime-text text-accent-3">
+             <b>También conocido como edificio del parque</b> </h5>
+        </div>
+      </li>
+      <li>
+        <img src="multimedia/img/vistaEntradaMicaela1.jpg"> <!-- random image -->
+        <div class="caption center-align card-panel transparent darken-5">
+          <h3>
+             <b>Vista completa de la micaela</b> </h3>
+          <h5 class="lime-text text-accent-3">
+              <b>esto lo podemos observar entrando al lugar desde el sendero que comunica 
+                a esta sede con la central.</b>
+              
+        </h5>
+        </div>
+      </li>
+      <li>
+        <img src="multimedia/img/VistaEntradaMicaela2.jpg"> <!-- random image -->
+        <div class="caption right-align card-panel transparent darken-5">
+          <h3>
+             <b>Patio de la micaela o bloque U</b> </h3>
+          <h5 class="lime-text text-accent-3">
+             <b>Imagen observada desde la vista que se da por la entrada alternativa.</b> </h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+   
+  <script src="./lib/materialize/js/materialize.min.js"></script>
+  <script src="./lib/materialize/js/cdnjs.js"></script>
+    <script>
+        var options = {
+            height: 600,
+            width: 750
+        };
+         document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, options);
+  });
+    </script>
+
+
+    
+</body>
+</html>
