@@ -19,11 +19,11 @@
 
     <nav>
       <div class="nav-wrapper  indigo darken-4">
-        <a href="#" class="brand-logo">&nbsp;&nbsp;&nbsp;UCaldas</a>
+        <a href="#" class="brand-logo">&nbsp;&nbsp;&nbsp;Proyecto - Redes de Computadores III</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="muestradeImagenes.html">Edificios</a></li>
-          <li><a href="muestradeVideos.html">Videos</a></li>
-          <li><a href="muestradeAudios.html">Audios</a></li>
+          <li><a href="./html/muestradeImagenes.html">Edificios</a></li>
+          <li><a href="./html/muestradeVideos.html">Videos</a></li>
+          <li><a href="./html/muestradeAudios.html">Audios</a></li>
         </ul>
       </div>
     </nav>
@@ -118,6 +118,10 @@
       document.addEventListener('DOMContentLoaded', function () {
         var elems = document.querySelectorAll('.collapsible');
         var instances = M.Collapsible.init(elems, options);
+
+        
+        M.toast({html: 'Conexión IPv4'})
+
       });
     </script>
 
